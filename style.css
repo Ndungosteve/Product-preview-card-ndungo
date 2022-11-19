@@ -1,5 +1,5 @@
 body {background-color: hsl(30, 38%, 92%);
-padding: auto;
+padding-top: 20px;
 display: flex;
 justify-content: center;
 align-items: center;}
