@@ -1,5 +1,8 @@
 body {background-color: hsl(30, 38%, 92%);
-padding: auto;}
+padding: auto;
+display: flex;
+justify-content: center;
+align-items: center;}
 
 .submit {    background-color: hsl(158, 36%, 37%);
 }
