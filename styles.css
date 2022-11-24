@@ -53,4 +53,37 @@ h2 {
     font-weight: 500;
     font-size: 34px;
     font-height: 1em;
+    color: hsl(212, 21%, 14%);
 }
+
+p {
+    color: hsl(228, 12%, 48%);
+}
+
+.current-price {
+color: hsl(158, 36%, 37%);
+font-size: 26px;
+font-family: 'Fraunces', serif;
+}
+
+.slashed-price {
+    color: hsl(228, 12%, 48%);;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 12px 0;
+    border-radius: 11px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
