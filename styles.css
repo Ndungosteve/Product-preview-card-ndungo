@@ -48,3 +48,9 @@ h5 {
     letter-spacing: 3px;
     font-size: 13px;
 }
+
+h2 {
+    font-weight: 500;
+    font-size: 34px;
+    font-height: 1em;
+}
