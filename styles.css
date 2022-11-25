@@ -98,9 +98,67 @@ button.submit img {
         grid-template-columns: 1fr;
     }
 
-    img {
+    .perfume-img img {
         max-height: 450px;
         width: 100%;
         object-fit: cover;
     }
+
+    .perfume {
+        display: block;
+    }
+
+    h2, h5, p, .price {
+        padding-bottom: 23px;
+    }
+
+    @media only screen and (max-width: 280px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+    
+        .perfume-img img {
+            max-height: 450px;
+            width: 100%;
+            object-fit: cover;
+        }
+    
+        .perfume {
+            display: block;
+        }
+    
+        h2, h5, p, .price {
+            padding-bottom: 23px;
+        }
 }
+
+@media only screen and (max-width: 375px) {
+    .container {
+        margin: 15px auto;
+        padding: 0 15px;
+    }
+
+    .perfume-img img {
+        max-height: 290px;
+    }
+
+    .perfume {
+        padding: 25px;
+    }
+
+    h2, h5, p, .price {
+        padding-bottom: 10px;
+    }
+    h2 {
+        font-size: 28px;}
+
+    p {
+        font-size: 12px
+    }
+    
+    button {
+        padding: 7px 0;
+        font-size: 10px;
+
+    }
+    }
