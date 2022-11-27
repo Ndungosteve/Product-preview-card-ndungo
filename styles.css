@@ -42,14 +42,14 @@ body {
     justify-content: space-between;
 }
 
-h5 {
+h1 {
     color: hsl(228, 12%, 48%);
     font-weight: 500;
     letter-spacing: 3px;
     font-size: 13px;
 }
 
-h2 {
+.gabbrielle {
     font-weight: 500;
     font-size: 34px;
     font-height: 1em;
@@ -108,7 +108,7 @@ button.submit img {
         display: block;
     }
 
-    h2, h5, p, .price {
+    .gabbrielle, h1, p, .price {
         padding-bottom: 23px;
     }
 
@@ -127,7 +127,7 @@ button.submit img {
             display: block;
         }
     
-        h2, h5, p, .price {
+        .gabbrielle, h1, p, .price {
             padding-bottom: 23px;
         }
 }
@@ -146,10 +146,10 @@ button.submit img {
         padding: 25px;
     }
 
-    h2, h5, p, .price {
+    .gabbrielle, h1, p, .price {
         padding-bottom: 10px;
     }
-    h2 {
+    .gabbrielle {
         font-size: 28px;}
 
     p {
